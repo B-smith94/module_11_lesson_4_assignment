@@ -1,4 +1,4 @@
-import CharacterList from './components/CharacterList';
+import CharacterList from './components/BrowsCharacters';
 import CharacterDetail from './components/CharacterDetail';
 import { useState } from 'react';
 import './App.css'
