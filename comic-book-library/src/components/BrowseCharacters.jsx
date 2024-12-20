@@ -3,7 +3,7 @@ import axios from 'axios';
 import styles from './Characters.module.css'
 
 
-const Characterlist = ({ onCharacterSelect }) => {
+const BrowseCharacters = ({ onCharacterSelect }) => {
     const [characters, setCharacters] = useState([]);
 
     useEffect(() => {
@@ -41,4 +41,4 @@ const Characterlist = ({ onCharacterSelect }) => {
     );
 };
 
-export default Characterlist
+export default BrowseCharacters

@@ -6,7 +6,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/*Task 1*/}
+    {/*Assignment 1, Task 1*/}
     <BrowserRouter>
       <App />
     </BrowserRouter>
